@@ -58,3 +58,5 @@
   program = /usr/local/MacGPG2/bin/gpg2
 [includeIf "gitdir:~/git/vizlib/"]
   path = ~/.gitconfig-work
+[pull]
+	rebase = false
