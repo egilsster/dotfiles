@@ -6,6 +6,9 @@ GIT=$HOME/git
 PERSONAL=$GIT/egilsster
 WORK=$GIT/vizlib
 
+mkdir -p $PERSONAL
+mkdir -p $WORK
+
 # Personal
 git clone git@github.com:egilsster/wodbook-api.git $PERSONAL/wodbook-api
 git clone git@github.com:egilsster/wodbook-app.git $PERSONAL/wodbook-app
