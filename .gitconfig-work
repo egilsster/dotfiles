@@ -1,0 +1,6 @@
+[user]
+    name = Egill Sveinbjörnsson
+    email = egill.sveinbjornsson@vizlib.com
+    # signingkey = TODO
+[core]
+    isWork = true
