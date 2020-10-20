@@ -29,6 +29,8 @@ If you did all of the above you may now follow these install instructions to set
 
 Your Mac is now ready to use!
 
+> NOTE: Put secret environment variables in `$HOME/.environment`
+
 ## TODO
 
 - Terminal config
