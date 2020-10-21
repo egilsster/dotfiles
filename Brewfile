@@ -31,7 +31,6 @@ brew 'mas' # Mac App Store manager
 cask '1password'
 cask 'discord'
 cask 'docker'
-cask 'expressvpn'
 cask 'firefox'
 cask 'google-chrome'
 cask 'gpg-suite'
