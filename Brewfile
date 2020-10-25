@@ -41,6 +41,10 @@ cask 'telegram'
 cask 'transmission'
 cask 'visual-studio-code'
 cask 'vlc'
+cask 'spotify'
+cask 'spectacle'
+cask 'rescuetime'
+cask 'postman'
 
 # Fonts
 cask 'font-fira-code'

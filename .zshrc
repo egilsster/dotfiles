@@ -47,11 +47,6 @@ hash -d vizlib=~/git/vizlib
 # Environment variables here
 source $HOME/.environment
 
-# Python virtual env
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/development
-source /usr/local/bin/virtualenvwrapper.sh
-
 # Function to use `rg` and give a selector to pick a result to open in vscode
 fgrvs() {
   local goto
@@ -161,9 +156,6 @@ export GPG_TTY=$(tty)
 
 # So it connects to Postgres in docker
 export PGHOST=localhost
-
-# for `br`
-source $HOME/Library/Preferences/org.dystroy.broot/launcher/bash/br
 
 source $HOME/.cargo/env
 
