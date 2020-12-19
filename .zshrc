@@ -29,11 +29,6 @@ alias gpr="git remote prune origin"
 alias gsa="git add . && git stash"
 alias grma="git fetch && git rebase origin/main"
 
-# Kubernetes aliases
-alias kg="kubectl get"
-alias kl="kubectl logs"
-alias kd="kubectl describe"
-
 # Navigation shortcuts
 # ```
 # λ ~/ ~dev
@@ -161,3 +156,4 @@ source $HOME/.cargo/env
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+export PATH="/usr/local/opt/node@14/bin:$PATH"

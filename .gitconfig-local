@@ -1,6 +1,6 @@
 [name]
-    name = Egill Sveinbjörnsson
-    email = egillsveinbjorns@gmail.com
-    signingkey = 63BBAE68
+  name = Egill Sveinbjörnsson
+  email = egillsveinbjorns@gmail.com
+  signingkey = 63BBAE68
 [meta]
-    isLocalConfig = true
+  isLocalConfig = true

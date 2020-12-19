@@ -31,7 +31,7 @@ Your Mac is now ready to use!
 
 > NOTE: Put secret environment variables in `$HOME/.environment`
 
-## TODO
+## New setup checklist
 
-- Terminal config
-- GPG setup instructions
+- [ ] Replace ~/Library/..plist with <Terminal config>
+- [ ] Import GPG config
