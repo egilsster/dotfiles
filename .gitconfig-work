@@ -1,6 +1,6 @@
 [user]
   name = Egill Sveinbjörnsson
-  email = egill.sveinbjornsson@vizlib.com
-  signingkey = 217F0AF0
+  email = egill.sveinbjornsson@qlik.com
+  signingkey = 999DE505
 [core]
   isWork = true

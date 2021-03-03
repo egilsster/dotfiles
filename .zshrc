@@ -37,7 +37,7 @@ alias grma="git fetch && git rebase origin/main"
 # ```
 hash -d dev=~/git
 hash -d egilsster=~/git/egilsster
-hash -d vizlib=~/git/vizlib
+hash -d qlik=~/git/qlik
 
 # Environment variables here
 source $HOME/.environment
@@ -67,8 +67,7 @@ antigen apply
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
-# ZSH_THEME="lambda"
-ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_THEME="lambda"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -152,8 +151,9 @@ export GPG_TTY=$(tty)
 # So it connects to Postgres in docker
 export PGHOST=localhost
 
-source $HOME/.cargo/env
+# source $HOME/.cargo/env
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-export PATH="/usr/local/opt/node@14/bin:$PATH"
+
+source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
