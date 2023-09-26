@@ -21,13 +21,14 @@ alias ec="code $DOTFILES/.zshrc"
 # source ~/.zshrc
 alias sc="source $DOTFILES/.zshrc"
 
-alias ls='ls -F'
-alias ll='ls -l'
+alias ls="ls -F"
+alias ll="ls -l"
 
 alias psc="cat package.json | jq -r '.scripts'"
-alias gpr="git remote prune origin"
+alias gprune="git remote prune origin"
 alias gsa="git add . && git stash"
 alias grma="git fetch && git rebase origin/main"
+alias gtree="git log --all --decorate --oneline --graph"
 
 # Navigation shortcuts
 # ```
@@ -157,3 +158,20 @@ export PGHOST=localhost
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
+
+# bun completions
+[ -s "/Users/bgd/.bun/_bun" ] && source "/Users/bgd/.bun/_bun"
+
+# Bun
+export BUN_INSTALL="/Users/bgd/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+export PATH="/usr/local/opt/node@18/bin:$PATH"
+# Bun end
+
+# Activate atuin for shell history
+eval "$(atuin init zsh)"
+
+# pnpm
+export PNPM_HOME="/Users/bgd/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end

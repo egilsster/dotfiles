@@ -2,6 +2,7 @@
   excludesfile = ~/.gitignore_global
   autocrlf = input
   editor = vim
+  pager = git-split-diffs --color | less -RFX
 [user]
   name = Egill Sveinbjörnsson
   email = egillsveinbjorns@gmail.com
@@ -32,8 +33,8 @@
   quicklog = log --pretty=format:'%Cblue%h %Cred%cD %Creset%cn %Cgreen%s%Creset' --date-order --graph
   changes = log --oneline --decorate
   changelog = show --name-only
-[url "git@github.com:vizlib"]
-  insteadOf = https://github.com/vizlib
+[url "git@github.com:qlik-trial"]
+  insteadOf = https://github.com/qlik-trial
 [apply]
   whitespace = nowarn
 [color]
@@ -55,7 +56,9 @@
   untracked = cyan
 [gpg]
   program = /usr/local/MacGPG2/bin/gpg2
-[includeIf "gitdir:~/git/vizlib/"]
+[includeIf "gitdir:~/git/qlik/"]
   path = ~/.gitconfig-work
 [pull]
-	rebase = false
+  rebase = false
+[interactive]
+  diffFilter = delta --color-only

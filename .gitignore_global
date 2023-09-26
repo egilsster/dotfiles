@@ -152,14 +152,12 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-build/
+/build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
 lib64/
-parts/
 sdist/
 var/
 wheels/
